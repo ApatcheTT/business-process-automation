@@ -577,6 +577,7 @@
       "dependsOn": [
         "[resourceId('Microsoft.CognitiveServices/accounts', parameters('openaiName'))]"
       ],
+             "sku":{"name":"Standard","capacity":60},
       "properties": {
         "model": {
           "format": "OpenAI",
